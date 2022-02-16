@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+      <style>
+          *{
+              color: white;
+          }
+      </style>
+    <div class="container-fluid" style="background-image: url(./images/wood-ga0f3a1372_1920.jpg);">
+      <!-- Top Section -->
+      <div class="container">
+        <div class="row">
+          <div class="goodluck">
+            <h1 class="display-4 my-4 text-center text-white-50">Good Luck</h1>
+            <div class="text-center mb-4">
+              <a href="./index.html" class="btn btn-dark text-light">Go Back</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result -->
+      <div class="container-fluid result d-none  mt-2 text-center">
+        <div class="container">
+          <div class="row">
+            <p>
+              You are <span class="text-warning display-4 p-3">0%</span> Expert
+              Developer
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Questions -->
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <h1 class="my-3 text-light fw-bolder">Questions</h1>
+            <form class="quiz-form my-4">
+              <p>1): The software that can read and render HTML documents is</p>
+              <div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="q1"
+                    value="A"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Browser
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="q1"
+                    value="B"
+                    id="flexRadioDefault2"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Server
+                  </label>
+                </div>
+              </div>
+              <p class="mt-3">2): HTML tag are used to descrbe document ____</p>
+              <div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="q2"
+                    value="A"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Language
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="q2"
+                    value="B"
+                    id="flexRadioDefault2"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Content
+                  </label>
+                </div>
+              </div>
+              <p class="mt-3">
+                3): Why so JavaScript and Java have similar name?
+              </p>
+              <div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="q3"
+                    value="A"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    JavaScript's syntax is loosely based on Java's
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="q3"
+                    value="B"
+                    id="flexRadioDefault2"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    JavaScript is stripped-down version of Java
+                  </label>
+                </div>
+              </div>
+              <p class="mt-3">
+                4): ___ JavaScript is also called client-side JavaScript.
+              </p>
+              <div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="q4"
+                    value="A"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Native
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="q4"
+                    value="B"
+                    id="flexRadioDefault2"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Navigator
+                  </label>
+                </div>
+              </div>
+              <p class="mt-3">5): What does CSS stand for.</p>
+              <div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="q5"
+                    value="A"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Cascading Style Sheets
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="q5"
+                    value="B"
+                    id="flexRadioDefault2"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Content Style Sheets
+                  </label>
+                </div>
+              </div>
+
+              <div class="text-center">
+                <input type="submit" class="btn btn-dark" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
